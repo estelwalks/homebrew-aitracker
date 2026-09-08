@@ -1,12 +1,12 @@
 cask "aitracker" do
   download_url = on_arch_conditional(
-    arm:   "https://github.com/estelwalks/aitracker/releases/download/v1.0.0/AITracker-1.0.0-arm64.dmg",
-    intel: "https://github.com/estelwalks/aitracker/releases/download/v1.0.0/AITracker-1.0.0-x64.dmg",
+    arm:   "https://github.com/estelwalks/aitracker/releases/download/v1.0.1/AITracker-1.0.1-arm64.dmg",
+    intel: "https://github.com/estelwalks/aitracker/releases/download/v1.0.1/AITracker-1.0.1-x64.dmg",
   )
 
-  version "1.0.0"
-  sha256 arm:   "6048c46d32f19b8f1aa6f82ae1c9c296ba8b7303b5b280113a7a54eb2fafd6a4",
-         intel: "85e2b1a4ba4b0f8074f898e66185936de413e38c084868872dad8d6211758695"
+  version "1.0.1"
+  sha256 arm:   "67bcc9478e44eb48dd1cf05ea4f7ffb167204d70d7aafd028e55fc8ffec4dd59",
+         intel: "6356c86e2489c76aee070b8876b6775b984568c724ae503a5159483fd72bbe95"
 
   url download_url
   name "AITracker"
