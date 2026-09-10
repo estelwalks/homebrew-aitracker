@@ -4,9 +4,9 @@ cask "aitracker" do
     intel: "https://github.com/estelwalks/aitracker/releases/latest/download/AITracker-x64.dmg",
   )
 
-  version "1.0.2"
-  sha256 arm:   "e58da23ef2250883c42f4e68ad92537043fb8ee0e1997b51f331682ec1e79647",
-         intel: "a164701ae3f66b05e303e4b7281eb4997266355f8a08748c794e070ae5e485b5"
+  version "1.0.3"
+  sha256 arm:   "efb96b83169194f9278938ec00fb2ef2757278c4254a64fc1d05bd1781141295",
+         intel: "40aab4cea480fb857adfb3a36936b5a9dab6629aa5dd0485c353cecc3b24eea0"
 
   url download_url
   name "AITracker"
